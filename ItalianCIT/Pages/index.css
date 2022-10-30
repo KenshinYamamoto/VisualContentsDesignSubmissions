@@ -1,0 +1,68 @@
+body {
+    font-family: '游明朝', 'san-serif';
+    margin: 0;
+}
+
+header {
+    font-family: '游ゴシック', 'san-serif';
+    background-color: black;
+}
+
+header img {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    width: 100px;
+    height: 100px;
+}
+
+ul.ddmenu {
+    margin: 0;
+    padding: 0px 0px 0px 15px;
+    background-color: red;
+    text-align: center;
+}
+
+ul.ddmenu li {
+    width: 125px;
+    display: inline-block;
+    list-style-type: none;
+    position: relative;
+}
+
+ul.ddmenu a {
+    background-color: red;
+    color: white;
+    line-height: 40px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    display: block;
+}
+
+ul.ddmenu ul {
+    display: none;
+    margin: 0px;
+    padding: 0px;
+    position: absolute;
+}
+
+ul.ddmenu a:hover {
+    background-color: yellowgreen;
+    color: black;
+}
+
+ul.ddmenu li:hover ul {
+    display: block;
+}
+
+footer {
+    height: 25px;
+    background-color: pink;
+}
+
+footer small {
+    display: block;
+    font-size: 1.1rem;
+    text-align: center;
+}
